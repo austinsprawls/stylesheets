@@ -1,0 +1,70 @@
+/**, *:before, *:after {
+  border: 1px solid red;
+  box-sizing: border-box;
+}*/
+
+* {
+  padding: .5%;
+  box-sizing: border-box;
+}
+.header {
+  height: 75px;
+}
+
+.left-sidebar {
+  height: 100%;
+}
+
+.right-sidebar-top {
+  height: 40%;
+}
+.right-sidebar-bottom {
+  height: 60%;
+}
+
+.full {
+  height: 100%;
+}
+.banners-section {
+  width: 80%;
+  height: 1000px;
+  float: left;
+}
+.banner {
+  height: 12%;
+  width: 100%;
+}
+
+.banner-left, .banner-right  {
+  float: left;
+  height: 75%;
+}
+
+.banner-left, .banner-right, .right-sidebar-top, .right-sidebar-bottom, .left-sidebar, .full {
+  background: #ccc;
+}
+
+.banner-left {
+  width: 10%;
+}
+
+.banner-right {
+  width: 88%;
+  margin-left: 1%;
+}
+
+.right-sidebar-bottom {
+  margin-top: 10%;
+}
+
+.left-section {
+  width: 10%;
+  height: 700px;
+  float: left;
+}
+
+.right-section {
+  width: 10%;
+  height: 500px;
+  float: left;
+}
