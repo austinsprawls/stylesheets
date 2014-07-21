@@ -1,0 +1,52 @@
+/**, *:before, *:after {
+  border: 1px solid red;
+  box-sizing: border-box;
+}*/
+
+* {
+  box-sizing: border-box;
+  margin: 1%;
+}
+
+body {
+  margin-top: 0;
+}
+
+html {
+  margin-top: 0;
+}
+
+.full, .quarter, .three-quarter {
+  background: #ccc;
+}
+
+.full.header, .full.footer {
+  height: 25px;
+}
+
+.full.hero {
+  height: 100px;
+}
+
+.quarter {
+  height: 80px;
+  width: 23%;
+  float: left;
+}
+
+.feature, .supporting {
+  margin: 0;
+  padding: 0;
+
+}
+
+.three-quarter {
+  height: 60px;
+  width: 65%;
+  float: left;
+}
+
+.supporting .quarter {
+  height: 60px;
+  width: 31%;
+}
